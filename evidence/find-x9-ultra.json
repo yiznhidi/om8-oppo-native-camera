@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "tested_device": "OPPO Find X9 Ultra (PMA110)",
+  "android": "17",
+  "coloros": "V17.0.0",
+  "gimbal": "DJI Osmo Mobile 8",
+  "firmware_version": "not recorded",
+  "tests": [
+    {
+      "test": 32,
+      "source": "curated aggregate of local observations; not raw log",
+      "om8_candidate_key_counts": [
+        {
+          "code": "KEY_VOLUMEUP",
+          "value": "DOWN",
+          "count": 1
+        },
+        {
+          "code": "KEY_VOLUMEUP",
+          "value": "UP",
+          "count": 1
+        }
+      ],
+      "non_om8_candidate_events_omitted": false
+    },
+    {
+      "test": 33,
+      "source": "curated aggregate of local observations; not raw log",
+      "om8_candidate_key_counts": [
+        {
+          "code": "KEY_VOLUMEUP",
+          "value": "DOWN",
+          "count": 2
+        },
+        {
+          "code": "KEY_VOLUMEUP",
+          "value": "UP",
+          "count": 2
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "DOWN",
+          "count": 7
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "UP",
+          "count": 7
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "DOWN",
+          "count": 8
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "UP",
+          "count": 8
+        }
+      ],
+      "non_om8_candidate_events_omitted": false
+    },
+    {
+      "test": 36,
+      "source": "curated aggregate of local observations; not raw log",
+      "om8_candidate_key_counts": [
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "DOWN",
+          "count": 7
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "UP",
+          "count": 7
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "DOWN",
+          "count": 5
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "UP",
+          "count": 5
+        }
+      ],
+      "non_om8_candidate_events_omitted": false
+    },
+    {
+      "test": 37,
+      "source": "curated aggregate of local observations; not raw log",
+      "om8_candidate_key_counts": [
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "DOWN",
+          "count": 3
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "UP",
+          "count": 3
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "DOWN",
+          "count": 2
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "UP",
+          "count": 2
+        }
+      ],
+      "non_om8_candidate_events_omitted": true
+    },
+    {
+      "test": 38,
+      "source": "curated aggregate of local observations; not raw log",
+      "om8_candidate_key_counts": [
+        {
+          "code": "KEY_VIDEO_NEXT",
+          "value": "DOWN",
+          "count": 3
+        },
+        {
+          "code": "KEY_VIDEO_NEXT",
+          "value": "UP",
+          "count": 3
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "DOWN",
+          "count": 1
+        },
+        {
+          "code": "KEY_ZOOMIN",
+          "value": "UP",
+          "count": 1
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "DOWN",
+          "count": 1
+        },
+        {
+          "code": "KEY_ZOOMOUT",
+          "value": "UP",
+          "count": 1
+        }
+      ],
+      "non_om8_candidate_events_omitted": true
+    }
+  ],
+  "observed_outcomes": {
+    "native_recording": "user-confirmed; isolated stop capture not completed",
+    "native_zoom": "user-confirmed smooth 1x to 8x",
+    "front_rear_switch": "user-confirmed",
+    "selected_professional_mode": "user-confirmed; exact mode/LUT/HDR settings not separately recorded"
+  },
+  "privacy": "No serials, MAC addresses, device broadcast names, exact timestamps, raw logs or screenshots published."
+}

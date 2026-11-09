@@ -1,0 +1,22 @@
+# Keep all generated captures and private material outside version control.
+/captures/
+/work/
+/private/
+**/private/
+*.raw.*
+*.private.*
+*.btsnoop
+*.pcap
+*.pcapng
+bugreport*
+*.zip
+*.apk
+*.png
+*.jpg
+*.jpeg
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
